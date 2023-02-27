@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>Lecture 05: Data Structures: Dictionaries and Tuples slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Lecture 06: Bubble Sort slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
@@ -14673,13 +14673,13 @@ div.jp-OutputPrompt {
 <h1 id="Bubble-Sort">Bubble Sort<a class="anchor-link" href="#Bubble-Sort">&#182;</a></h1><p>Bubble Sort is a simple sorting algorithm that repeatedly steps through a list of elements, compares adjacent elements, and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements "bubble" to the top of the list as the algorithm executes.</p>
 
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>The algorithm works by comparing each pair of adjacent elements in the list from left to right, and swapping them if they are in the wrong order. This process is repeated multiple times until the list is fully sorted.</p>
 
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="The-basic-algorithm:">The basic algorithm:<a class="anchor-link" href="#The-basic-algorithm:">&#182;</a></h2><ol>
@@ -14690,7 +14690,7 @@ div.jp-OutputPrompt {
 <p>Repeat steps 1-3 until no more swaps are needed, indicating that the list is sorted.</p>
 
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_hide_code">
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_hide_code">
 
 <div class="jp-Cell-outputWrapper">
 
@@ -14725,14 +14725,45 @@ div.jp-OutputPrompt {
 </ul>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_hide_code">
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*fZ-Wku9y1mxqRO_pWPJmsg.jpeg" width="600"/>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Bubble-Sort-in-Python">Bubble Sort in Python<a class="anchor-link" href="#Bubble-Sort-in-Python">&#182;</a></h1><p>Write a Python program to perform a bubble sort on the following list, and display the sorted list as the output</p>
+<p><code>items = [5, 3, 8, 6, 7, 2]</code></p>
+
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">Image</span>
-<span class="n">display</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s2">&quot;https://miro.medium.com/v2/resize:fit:4800/format:webp/1*fZ-Wku9y1mxqRO_pWPJmsg.jpeg&quot;</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="mi">500</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;images/qr_code_bubble_sort.png&quot;</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -14752,8 +14783,11 @@ div.jp-OutputPrompt {
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*fZ-Wku9y1mxqRO_pWPJmsg.jpeg" width="500"/>
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
 
 </div>
@@ -14762,27 +14796,11 @@ div.jp-OutputPrompt {
 
 </div>
 
-</div></section></section><section><section>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Bubble-Sort-in-Python">Bubble Sort in Python<a class="anchor-link" href="#Bubble-Sort-in-Python">&#182;</a></h1><p>Write a Python program to perform a bubble sort on the following list, and display the sorted list as the output</p>
-<p><code>items = [5, 3, 8, 6, 7, 2]</code></p>
-
+<h1 id="Bubble-Sort-in-Python---Solution">Bubble Sort in Python - Solution<a class="anchor-link" href="#Bubble-Sort-in-Python---Solution">&#182;</a></h1>
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution: Bubble Sort</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_hide_code">
 
 <div class="jp-Cell-outputWrapper">
