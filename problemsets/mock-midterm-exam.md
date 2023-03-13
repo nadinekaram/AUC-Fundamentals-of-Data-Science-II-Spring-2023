@@ -158,6 +158,64 @@ c) `{"a": 1, "c": 3}, {"b": 2}`
 
 d) None of the above
 
+11. What is the output of the following code?
+```python
+x = "hello"
+y = x.upper().replace("O", "X")
+print(y)
+```
+
+a) "HELLO"
+
+b) "HELLX"
+
+c) "hello"
+
+d) None of the above
+
+12. What is the output of the following code?
+
+```python
+x = 3
+y = 2
+x = y
+y = 5
+print(x)
+```
+
+a) `2`
+
+b) `3`
+
+c) `5`
+
+d) None of the above
+
+13. What is the output of the following code?
+
+```python
+def f(x, y):
+    x[0] = x[0] + 1
+    y = y + 1
+    return x, y
+
+x = [1, 2, 3]
+y = 4
+z = f(x, y)
+print(z)
+print(x)
+print(y)
+```
+
+a) `([2, 2, 3], 5), [2, 2, 3], 4`
+
+b) `([2, 2, 3], 5), [2, 2, 3], 5`
+
+c) `([1, 2, 3], 5), [2, 2, 3], 4`
+
+d) None of the above
+
+
 ## Coding Questions:
 
 1. Write a Python function called "even_numbers" that takes a list of integers as input and returns a list of only the even numbers in the input list. Example input: `[1, 2, 3, 4, 5, 6]`, Example output: `[2, 4, 6]`
