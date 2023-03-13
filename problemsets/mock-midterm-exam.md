@@ -162,4 +162,4 @@ d) None of the above
 
 1. Write a Python function called "even_numbers" that takes a list of integers as input and returns a list of only the even numbers in the input list. Example input: `[1, 2, 3, 4, 5, 6]`, Example output: `[2, 4, 6]`
 
-2. Write a *recursive* Python function called `fibonacci` that takes an integer n as input and returns the nth number in the Fibonacci sequence. The first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the two previous numbers. Example input: 6, Example output: 8
+2. Write a *recursive* Python function called `fibonacci` that takes an integer `n` as input and returns the `n`th number in the Fibonacci sequence. The first two numbers in the Fibonacci sequence are `0` and `1`, and each subsequent number is the sum of the two previous numbers. Example input: `6`, Example output: `8`
